@@ -156,9 +156,14 @@ button:focus {
 
 /* Loader */
 .loader {
-    text-align: center;
-    line-height: 150%;
-    letter-spacing: 0.04em;
+    display: block;
+    margin: 20px auto;
+    border: 4px solid #ccc;
+    border-top-color: #4e75ff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
 }
 
 .is-hidden {
@@ -169,10 +174,6 @@ button:focus {
     to {
         transform: rotate(360deg);
     }
-}
-
-.is-hidden {
-    display: none;
 }
 
 /* Gallery */
