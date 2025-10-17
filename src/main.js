@@ -9,6 +9,8 @@ import {
 import iziToast from "izitoast";
 import "izitoast/dist/css/iziToast.min.css";
 
+import errorPicSVG from './img/error-pic.svg';
+
 const form = document.querySelector(".form");
 const input = form.querySelector("input[name='search-text']");
 
@@ -16,7 +18,7 @@ const errorToastOptions = {
     position: "topRight",
     backgroundColor: '#EF4040',
     messageColor: '#FFFFFF',
-    iconUrl: '/img/error-pic.svg',
+    iconUrl: errorPicSVG,
     iconColor: '#FFFFFF',
     progressBar: true,
     progressBarColor: '#B51B1B',
